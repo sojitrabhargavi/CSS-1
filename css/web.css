@@ -1,0 +1,250 @@
+:root{
+    --dark-color:black;
+    --light-color:white;
+    --text-color:#b49383;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.py{
+    padding: 90px  0;
+}
+li {
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.w-1{
+
+    width: 100%;
+}
+.w-2{
+    width: 50%;
+}
+.w-3{
+    width: 33.33%;
+}
+.w-4{
+    width: 20%;
+}
+.w-4{
+    width: 25%;
+}
+.w-5{
+    width: 20%;
+}
+header{
+    /* background-color:var(--dark-color) ; */
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+.logo a{
+    font-size: 30px;
+    color: var(--light-color);
+}
+.logo a div:nth-child(2){
+    font-size: 17px;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    line-height: 24px;
+    color:var(--light-color);
+}
+nav ul li a{
+    margin: 0 20px;
+    font-size: 18px;
+    color: var(--light-color);
+}
+/* banner */
+.banner{
+    background-image: url(../images/home.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.b-title{
+    text-align: center;
+    margin-top: 250px;
+    color: var(--light-color);
+}
+.b-title h2{
+     color: var(--text-color);
+     font-family: 'Playball', cursive;
+     font-size: 38px;
+}
+.b-title h1{
+    font-size: 38px;
+    word-spacing: 5px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.b-title p{
+    font-size: 20px;
+    line-height: 30px;
+}
+/* about */
+.a-img{
+    background-image: url(../images/intro_1.jpg);
+    width: 350px;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a-img1{
+    background-image: url(../images/intro_2.jpg);
+    width: 350px;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-left: 80px; */
+    position: relative;
+}
+.a-contact{
+    margin-top: 130px;
+    /* width: 600px;
+    height: 300px; */
+    padding: 50px;
+    background-color: var(--light-color);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid var(--text-color);
+    position: absolute;
+    margin-left: -90px;
+}
+.a-contact h4{
+    font-size: 24px;
+    color: var(--text-color);
+    font-family: 'Playball', cursive;
+}
+.a-contact h3{
+    font-size: 32px;
+    margin-top: 10px;
+}
+.a-contact p{
+    margin-top: 10px;
+}
+/* dise */
+img{
+    position: relative;
+}
+.d-contact{
+    background-color: var(--light-color);
+    border: 3px solid var(--text-color);
+    padding: 100px;
+    position: absolute;
+    margin-right: 80px;
+}
+.d-contact h4{
+    font-size: 24px;
+    font-family: 'Playball', cursive;
+    color: var(--text-color);
+}
+.d-contact h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.d-contact h5{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.d-contact p{
+    color: gray;
+}
+.footer
+{
+	width: 100%;
+	background: #232323;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+.footer_logo_title
+{
+	font-size: 57px;
+	line-height: 0.75;
+	color: #FFFFFF;
+}
+.footer_logo_subtitle
+{
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: 0.680em;
+	line-height: 0.75;
+	margin-top: 17px;
+}
+.copyright
+{
+	font-size: 13px;
+	color: rgba(255,255,255,0.41);
+	line-height: 0.75;
+	margin-top: 22px;
+}
+.footer_about p
+{
+	color: #a5a4a4;
+}
+.footer_contact ul li:not(:last-child)
+{
+	margin-bottom: 15px;
+}
+.footer_contact_title
+{
+	width: 61px;
+	height: 21px;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 21px;
+	background: #c49a8f;
+	padding-left: 8px;
+	margin-right: 11px;
+}
+.footer_contact_text
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 21px;
+}
+.footer_contact ul li div:last-child
+{
+	white-space: nowrap;
+}
